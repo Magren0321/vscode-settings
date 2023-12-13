@@ -1,6 +1,4 @@
 {
-  // Visuals
-  "workbench.activityBar.visible": true,
   "workbench.list.smoothScrolling": true,
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
@@ -22,9 +20,9 @@
   "editor.stickyScroll.enabled": true,
   "editor.hover.sticky": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "explorer.confirmDelete": false,
