@@ -1,11 +1,12 @@
 {
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.iconTheme": "vscode-icons",
 
   // Editor
-  "editor.fontSize": 13,
-  "editor.fontFamily":"'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight":24,
+  "editor.fontFamily":"Comic Mono, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation":"on",
@@ -129,4 +130,7 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true
 }
+
