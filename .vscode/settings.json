@@ -5,11 +5,11 @@
 
   // Editor
   "editor.fontSize": 14,
-  "editor.lineHeight":24,
-  "editor.fontFamily":"Comic Mono, Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Comic Mono, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.accessibilitySupport": "off",
-  "editor.cursorSmoothCaretAnimation":"on",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": true,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
@@ -68,7 +68,7 @@
     "**/yarn.lock": true
   },
   "terminal.integrated.fontFamily": "monospace",
-  
+
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -131,6 +131,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
-
