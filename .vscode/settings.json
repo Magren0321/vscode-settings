@@ -138,6 +138,34 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "mdx": true
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "prisma.showPrismaDataPlatformNotification": false,
+
+  // UI
+  "workbench.activityBar.location": "top",
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 10
+    }
+  },
+  "apc.activityBar": {
+    "size": 90,
+    "itemSize": 33
+  },
+  "apc.stylesheet": {
+    ".mac .sidebar .composite-bar-container": "padding-left: 70px",
+    ".mac .inline-titlebar-placeholder": "padding-left: 0 !important"
+  }
 }
